@@ -12,7 +12,6 @@ const GlobalStyle = createGlobalStyle`
   }
   body {
     margin: 0;
-    font-family: Helvetica, Arial, sans-serif;
   }
   main {
     display: block;
@@ -132,6 +131,40 @@ const GlobalStyle = createGlobalStyle`
     -webkit-appearance: button; /* 1 */
     font: inherit; /* 2 */
   }
+
+  /* Typography */
+  /**
+  GRT Typeface setting: Roboto @ 14px
+  Source: https://grtcalculator.com/
+   */ 
+  body {
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    line-height: 34px;  
+  }
+  h1 {
+    font-size: 37px;
+    line-height: 61px;
+    margin-bottom: 28px;  
+  }
+  h2 {
+    font-size: 29px;
+    line-height: 50px;
+    margin-top: 55px;
+    margin-bottom: 21px;
+    }
+  h3 {
+    font-size: 23px;
+    line-height: 41px;
+    margin-top: 34px;
+    margin-bottom: 13px;
+    }
+  h4 {
+    font-size: 18px;
+    line-height: 34px;
+    font-weight: bold;
+    margin-bottom: 8px;
+    }
 `
 
 export { GlobalStyle }
